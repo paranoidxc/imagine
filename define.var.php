@@ -28,3 +28,5 @@ define("AVATAR_PREFIX", 'source_');
 define("SECRET", 'ihuangxc');
 
 define("ADMIN_URL", "/cp/Dashboard/index");
+
+define("HTTP_HOST", "http://".$_SERVER['HTTP_HOST']);

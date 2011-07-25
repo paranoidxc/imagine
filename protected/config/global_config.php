@@ -79,8 +79,8 @@ return $config_ar = array(
 		'db'=>array(
 			'connectionString' => 'mysql:host=localhost;dbname=imagine',
 			'emulatePrepare' => true,
-			'username' => 'root',
-			'password' => '',
+			'username' => 'imagine_usr',
+			'password' => 'imagine_pas5w0rd',
 			'charset' => 'utf8',
 		),
 

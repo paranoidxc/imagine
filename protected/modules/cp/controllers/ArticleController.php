@@ -388,7 +388,7 @@ class ArticleController extends GController
   }
 
 
-  public function actionBannel(){
+  public function actionBanner(){
     $leaf_id  = $_GET['leaf_id'];
     $cur_leaf = Category::Model()->findByPk($leaf_id);
     $articles = $cur_leaf->articles;
@@ -418,7 +418,7 @@ EOT;
         $s .=   "\t\t<title></title>\n";
         if( $item->attachment ) {
           $image = $item->attachment->large;
-          $s .=   "\t\t<path>http://local.imagine.com$image</path>\n";
+          $s .=   "\t\t<path>".HTTP_HOST.$image."</path>\n";
         }else {
           $s .=   "\t\t<path></path>\n";
         }
@@ -448,7 +448,7 @@ EOT;
 		return array(
 
 			array('allow',  
-				'actions'=>array('bannel','innode','slideshow','ipage','news','leaf_create','leaf_update','leaf_del'),
+				'actions'=>array('banner','innode','slideshow','ipage','news','leaf_create','leaf_update','leaf_del'),
 				'users'=>array('@'),
 			),
 			array('allow',  

@@ -67,7 +67,7 @@
 
            <?php if( $top_leaf->id == 276 && $cur_leaf->id != 276){ ?>
             <a class='action'
-              href="<?echo url('/cp/article/bannel',
+              href="<?echo url('/cp/article/banner',
               array('action' => action(),'top_leaf_id' => $top_leaf->id, 'leaf_id' => $cur_leaf->id)
                 ) ?>" >创建幻灯文件</a>
            <?php } ?>
