@@ -1,0 +1,115 @@
+#w_search{
+}
+#attachment_form,
+.w_adv_search{
+  padding: 5px 10px;
+  margin-left: 0px;
+  line-height: 1.5em;
+  background: #E3E9FF;
+}
+#attachment_form {
+}
+#w_search form {
+} 
+#w_search form .keyword {
+  margin-left: 5px;
+}
+
+#w_middle{
+  } 
+  #w_action {
+    height: 30px;
+    line-height: 30px;  
+    border-bottom: 1px solid #F0EEEC;
+  } #w_left,
+    .w_left{
+    width: 240px;
+    vertical-align: top;
+  } #w_right{
+    vertical-align: top;
+  }
+  #w_content {
+    clear: both;
+  }
+  #w_search {
+    line-height: 26px;
+    height: 26px;
+  }
+
+#w_content.w_content_position {
+  position: absolute;
+  right: 0;
+  top: 56px;
+  top: 60px;
+  padding: 1px;
+  z-index: 10000;
+}
+#w_content .list  {
+  width: 100%;
+}
+#w_content .list tr th {
+  height: 28px;
+  line-height: 28px;
+  border-top: 1px solid #C8C8C8;
+  background: url(bgs/tree-top-on.jpg) repeat-x 0 0;
+  border-bottom: 1px solid #C8C8C8;
+  color: #646464;
+  vertical-align: middle;
+}
+#w_content .list tr td {
+  line-height: 28px;
+  border-top: 1px solid #FFF;
+  border-bottom: 1px solid #F0EEEC;
+  background: #FAFAFA;
+  padding-right: 2px;
+  padding-left: 2px;
+}
+
+#w_content .list tr td.taC {
+  text-align: center;
+}
+#w_content .list tr td a:visited,
+#w_content .list tr td a {
+  text-decoration: none;
+}
+#w_content .list tr.select td {
+  background: #FFFFCC;
+} 
+
+#w_content .list tr.hover td {
+  background: #E3E9FF;
+}
+
+.iform .itable th ,
+.iform .itable td {
+  line-height: 28px;
+  border-bottom: 1px solid #efefef;
+  vertical-align: top;
+}
+.iform .itable td.vaM {
+  vertical-align: middle;
+}
+
+form .itable tr.focus th,
+form .itable tr.focus td {
+  background: #ffffcc;
+  color: #131313;
+}
+.iform .itable th {
+  text-align: right;
+  padding-right: 10px;
+  color: #36c;
+  font-weight: normal;
+}
+
+.iform .itable td label {
+  display: inline-block;
+  width: 100px;
+}
+.iform .itable.form_without_content td label {
+  text-align: right;
+  width: 300px;
+}
+.iform .itable.form_without_content td .errorMessage {
+  margin-left: 300px;
+}

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- slideShowTime - if set to 0, there is no autoslide -->
+
+  <banner width = "560" height = "350"
+		backgroundColor = "0xffffff"
+		backgroundTransparency = "100"
+		
+		startWith = "1"
+		barHeight = "25"
+		fadeTransition = "false"
+		verticalTransition = "false"
+		controllerTop = "false"
+		transitionSpeed = "1"
+		titleX = "0"
+		titleY = "0">
+
+    <items>
+	<item>
+		<title></title>
+		<path>http://local.imagine.com/upfiles/2011/07/23/1311428988404732168_800_500.jpg</path>
+		<url></url>
+		<target></target>
+		<bar_color>0xcd0a10</bar_color>
+		<bar_transparency>50</bar_transparency>
+		<slideShowTime>5</slideShowTime>
+	</item>
+	<item>
+		<title></title>
+		<path>http://local.imagine.com/upfiles/2011/07/23/1311428992655016298_800_500.jpg</path>
+		<url></url>
+		<target></target>
+		<bar_color>0xcd0a10</bar_color>
+		<bar_transparency>50</bar_transparency>
+		<slideShowTime>5</slideShowTime>
+	</item>
+	<item>
+		<title></title>
+		<path>http://local.imagine.com/upfiles/2011/07/23/1311428998518488160_800_500.jpg</path>
+		<url></url>
+		<target></target>
+		<bar_color>0xcd0a10</bar_color>
+		<bar_transparency>50</bar_transparency>
+		<slideShowTime>5</slideShowTime>
+	</item>
+	<item>
+		<title></title>
+		<path>http://local.imagine.com/upfiles/2011/07/23/1311429004246879657_800_500.jpg</path>
+		<url></url>
+		<target></target>
+		<bar_color>0xcd0a10</bar_color>
+		<bar_transparency>50</bar_transparency>
+		<slideShowTime>5</slideShowTime>
+	</item>
+	<item>
+		<title></title>
+		<path>http://local.imagine.com/upfiles/2011/07/23/1311429008710374267_800_500.jpg</path>
+		<url></url>
+		<target></target>
+		<bar_color>0xcd0a10</bar_color>
+		<bar_transparency>50</bar_transparency>
+		<slideShowTime>5</slideShowTime>
+	</item>
+	<item>
+		<title></title>
+		<path>http://local.imagine.com/upfiles/2011/07/23/1311429011386097458_800_500.jpg</path>
+		<url></url>
+		<target></target>
+		<bar_color>0xcd0a10</bar_color>
+		<bar_transparency>50</bar_transparency>
+		<slideShowTime>5</slideShowTime>
+	</item>
+	<item>
+		<title></title>
+		<path>http://local.imagine.com/upfiles/2011/07/23/13114290242047406421_800_500.jpg</path>
+		<url>http://infuzhou.co.cc</url>
+		<target></target>
+		<bar_color>0xcd0a10</bar_color>
+		<bar_transparency>50</bar_transparency>
+		<slideShowTime>5</slideShowTime>
+	</item>
+	<item>
+		<title></title>
+		<path>http://local.imagine.com/upfiles/2011/07/23/13114290211702323536_800_500.jpg</path>
+		<url>http://infuzhou.co.cc</url>
+		<target></target>
+		<bar_color>0xcd0a10</bar_color>
+		<bar_transparency>50</bar_transparency>
+		<slideShowTime>5</slideShowTime>
+	</item>
+	<item>
+		<title></title>
+		<path>http://local.imagine.com/upfiles/2011/07/23/13114290191137669592_800_500.jpg</path>
+		<url>www.google.com</url>
+		<target></target>
+		<bar_color>0xcd0a10</bar_color>
+		<bar_transparency>50</bar_transparency>
+		<slideShowTime>5</slideShowTime>
+	</item>
+	<item>
+		<title></title>
+		<path>http://local.imagine.com/upfiles/2011/07/23/13114290151668747869_800_500.jpg</path>
+		<url>www.google.com</url>
+		<target></target>
+		<bar_color>0xcd0a10</bar_color>
+		<bar_transparency>50</bar_transparency>
+		<slideShowTime>5</slideShowTime>
+	</item>
+</items>
+</banner>

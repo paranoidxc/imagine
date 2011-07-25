@@ -1,0 +1,84 @@
+div#w_location {
+  padding-left: 5px;
+}
+
+ul.api_categorys_ul span.open,
+ul.api_categorys_ul span.fold {
+  background-position: -464px 4px;
+}
+
+ul.api_categorys_ul li p.tree_leaf_current span.open,
+ul.api_categorys_ul li p.tree_leaf_current span.fold,
+ul.api_categorys_ul li p.select span.open,
+ul.api_categorys_ul li p.select span.fold {
+  background: url(api_categorys_img/leaf_on.jpg) no-repeat -2px 4px;
+}
+
+ul.api_categorys_ul .f_fold ,
+ul.api_categorys_ul .stand {
+  display: none;
+}
+
+#w_tree_wrap p.signal,
+.settings .w_settings p {
+  background: none;
+  height: 10px;
+}
+
+#w_search span.toggle {
+  position: relative;
+  top: -3px
+}
+#w_search form {
+  margin: 2px 0 0 0;
+} 
+
+.stared,
+.unstared {
+  background: url("bgs/star_n.jpg") no-repeat scroll 0 -155px transparent;
+}    
+.stared {
+  background-position: -17px -155px;
+}
+.settings .handle {;;
+    margin-top: 4px;
+  }
+  .settings .handle:hover {
+    background-position: 0 -14px;
+  }
+
+  .mac_panel_wrap ,
+  #w_tree_wrap .w_inner,
+  .settings .w_settings div {   
+    background: #CCC;
+  }
+
+.wrap_footer .node_name,
+.wrap_footer .move_category_id,
+.wrap_footer .move_category_name {
+  border: 1px solid #FFF;
+}
+
+#w_content .atm_photos .thumb_wrap  {
+  border: 1px solid #FFF;
+}
+.panel_inner .atm_photos li img ,
+#w_content .atm_photos li img {
+  width: 130px; 
+  height: 95px;
+}
+.atm_photos li p {  
+  width: 135px; 
+  text-align: left;
+  margin: auto;
+  margin-top: -1px;
+  }
+  .atm_photos li p input {  
+    float: left;
+  }
+
+.swfloadstatus {
+  line-height: 32px;
+  position: relative;
+  top: 10px;
+}

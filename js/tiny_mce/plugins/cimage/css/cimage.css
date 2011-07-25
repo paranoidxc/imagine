@@ -1,0 +1,281 @@
+body {
+  font-size: 14px;
+}
+#frmbody {
+	padding: 10px;
+	background-color: #FFF;
+	border: 1px solid #CCC;
+}
+
+.frmRow {
+	margin-bottom: 10px;
+}
+
+#templatesrc {
+	border: none;
+	width: 320px;
+	height: 240px;
+}
+
+.title {
+	padding-bottom: 5px;
+}
+
+.mceActionPanel {
+	padding-top: 5px;
+}
+.flR {
+  float: right;
+}
+.dN {
+  display: none;
+}
+.csP {
+  cursor: pointer;
+}
+.p5P {
+  padding: 5px;
+}
+.lh60P {
+  line-height: 60px;
+}
+.h60P {
+  height: 60px;
+}
+.pr10P {
+  /*
+  padding-right: 10px;
+  */
+}
+.lh32P {
+  line-height: 32px;
+}
+.pt10P {
+  padding-top: 10px;
+}
+.taR {
+  text-align: right;
+}
+.clear {
+  clear: both;
+}
+.w100S {
+  width: 100%;
+}
+.bgTips {
+  clear: both;
+  background: #FFC;
+}
+.image_border {
+  border: 1px solid #313131;
+  padding: 1px;
+}
+.vaM {
+  vertical-align: middle;
+}
+.atm_photos .att_pick_li div {
+  height: 118px;
+  margin-bottom: 1px;
+}
+input, select, textarea {
+  font-size: 14px;
+}
+
+.search_input {
+  font-size: 14px;
+  width: 98%;
+  padding: 4px;
+  margin: 1px;
+  border: 1px solid #666;
+  padding: 4px 2px;
+  border-color: #666 #CCC #CCC #666;
+}
+.search_input:focus {
+  margin: 0px;
+  margin: 0;
+  border: 2px solid #73A6FF;
+}
+.atm_photos li img {
+  padding: 1px;
+  margin-top: 8px;
+  max-width: 130px;
+  max-height: 90px;
+}
+.atm_photos li{
+  overflow: hidden;
+  float: left;
+  width: 152px;
+  height: 141px;    
+  background: url(single-bg.jpg) no-repeat 0 0;
+  text-align: center;
+  margin: 5px;  
+  opacity: 0.9;
+}
+.atm_photos li:hover {
+   opacity: 1;
+}
+.atm_photos li.active,
+.atm_photos li.select {
+  background: url(single-bg-active.jpg) no-repeat 0 0;
+}
+
+.atm_photos li .lightbox{
+  min-height: 110px;   
+  height: 110px;
+  display: block;
+}
+
+.atm_photos li span {
+  display: block;
+  overflow: hidden;
+  line-height: 16px;
+  height: 16px;
+  width: 140px;
+  padding: 0 10px;
+  text-align: left;
+}
+
+/*
+.ipagination {
+  line-height: 30px;
+  height: 30px;
+  border: 1px solid red;
+          margin-top: -30px;
+}
+
+.w_pagin {
+  margin-top: -23px;
+}
+.w_pagin span {
+  display: inline-block;
+  padding: 2px 6px;
+  height: 16px;
+  line-height: 16px;
+}
+*/
+ul.yiiPager {
+  position: relative;
+  top: 0px;
+  font-size: 14px;
+  display: inline-block;
+}
+.ipagination span {
+  font-size: 14px;
+}
+
+.ipagination ul.yiiPager {
+}
+ul.yiiPager li
+{
+  list-style: none;
+  float: left;
+  border: 1px solid #efefef;
+  border-color: #efefef #ccc #ccc #efefef;   
+}
+ul.yiiPager .hidden a:hover,
+ul.yiiPager a:link,
+ul.yiiPager a:visited {  
+  height: 30px;
+  line-height: 30px;
+  padding: 0px 6px ;
+  height: 16px;
+  line-height: 16px;
+  margin: 0;
+  display: block;
+  text-decoration:none;
+  border: 1px solid #313131;
+  border-color: #fff;
+  color: #666666; 
+  background: #efefef  no-repeat 0 50%;
+}
+
+ul.yiiPager .page a {
+ font-weight: normal;
+ background: #efefef no-repeat 0 50%;
+}
+ul.yiiPager a:hover { color: #313131;
+}
+
+ul.yiiPager .selected a {  
+ font-weight:bold;
+ color: #313131;
+}
+ul.yiiPager .hidden a:hover,
+ul.yiiPager .hidden a {
+  cursor: text;
+  color: #999; 
+}
+
+ul.yiiPager .first,
+ul.yiiPager .last {
+ display:none;
+}
+
+.ipagination {
+  margin: 3px 0;
+}
+.w_pagin {
+  position: absolute;
+  right: 0;
+  z-index: 100000;
+  top: 36px;
+}
+.ipagination span ,
+.w_pagin span {
+  display: inline-block;
+  padding: 2px 0px;
+  height: 16px;
+  line-height: 16px;
+}
+ul.yiiPager {
+  position: relative;
+  top: 0px;
+  display: inline-block;
+  float: right;
+}
+
+ul.yiiPager li
+{
+  float: left;
+  display: inline;
+  border: 1px solid #efefef;
+  border-color: #efefef #ccc #ccc #efefef;   
+}
+ul.yiiPager .hidden a:hover,
+ul.yiiPager a:link,
+ul.yiiPager a:visited {  
+  height: 30px;
+  line-height: 30px;
+  padding: 0px 6px ;
+  height: 16px;
+  line-height: 16px;
+  margin: 0;
+  float: left;
+  text-decoration:none;
+  border: 1px solid #313131;
+  border-color: #fff;
+  color: #666666; 
+  background: #efefef  no-repeat 0 50%;
+}
+
+ul.yiiPager .page a {
+ font-weight: normal;
+ background: #efefef no-repeat 0 50%;
+}
+ul.yiiPager a:hover { color: #313131;
+}
+
+ul.yiiPager .selected a {  
+ font-weight:bold;
+ color: #313131;
+}
+ul.yiiPager .hidden a:hover,
+ul.yiiPager .hidden a {
+  cursor: text;
+  color: #999; 
+}
+
+ul.yiiPager .first,
+ul.yiiPager .last {
+ display:none;
+}

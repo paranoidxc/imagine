@@ -1,0 +1,24 @@
+.wrap_footer .node_name,
+.wrap_footer .move_category_id,
+.wrap_footer .move_category_name {
+  border: 1px solid #FFF;
+}
+
+#w_content .atm_photos .thumb_wrap  {
+  border: 1px solid #FFF;
+}
+
+#w_image .atm_photos li img {
+  width: 130px; 
+  height: 95px;
+}
+.atm_photos li p {  
+  width: 135px; 
+  text-align: left;
+  margin: auto;
+  margin-top: -1px;
+  }
+  .atm_photos li p input {  
+    float: left;
+  }
+
