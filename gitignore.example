@@ -1,2 +1,7 @@
 upfiles/*
 .gitignore
+.swp
+.swo
+.log.*
+.log
+protected/runtime/*
