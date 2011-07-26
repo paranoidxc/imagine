@@ -89,5 +89,10 @@ $(document).ready(function(){
 	    return 'Image ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '';
 	    }
   	});
-  }
+  };
+  
+  $("img.lazy").lazyload({
+     placeholder : "img/grey.gif",       
+     effect      : "fadeIn"
+  });
 });

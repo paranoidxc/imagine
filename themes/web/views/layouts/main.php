@@ -13,12 +13,7 @@
 	$cs->registerCssFile($theme_baseurl.'/css/jquery.jscrollpane.lozenge.css');	
 	$cs->registerCssFile($theme_baseurl.'/js/fancybox/jquery.fancybox-1.3.4.css');	
 ?>
-  <script type="text/javascript" src="<?php echo $baseUrl; ?>/js/jquery-1.4.2.min.js"></script>
-  <script type="text/javascript" src="<?php echo $theme_baseurl?>/js/jquery.mousewheel.js"></script>	
-  <script type="text/javascript" src="<?php echo $theme_baseurl?>/js/jquery.jscrollpane.min.js"></script> 
-  <script type="text/javascript" src="<?php echo $theme_baseurl?>/js/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
-  <script type="text/javascript" src="<?php echo $theme_baseurl?>/js/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
-  <script type="text/javascript" src="<?php echo $theme_baseurl?>/js/script.js"></script>
+ 
   <title><?php 
   if( !empty($this->_pageTitle) ) {
     echo $this->_pageTitle;
@@ -78,3 +73,11 @@
   ?>
 </body>
 </html>
+ <script type="text/javascript" src="<?php echo $baseUrl; ?>/js/jquery-1.4.2.min.js"></script>
+  <script type="text/javascript" src="<?php echo $theme_baseurl?>/js/jquery.mousewheel.js"></script>	
+  <script type="text/javascript" src="<?php echo $theme_baseurl?>/js/jquery.jscrollpane.min.js"></script> 
+  <script type="text/javascript" src="<?php echo $theme_baseurl?>/js/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+  <script type="text/javascript" src="<?php echo $theme_baseurl?>/js/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+  <script type="text/javascript" src="<?php echo $theme_baseurl?>/js/jquery.lazyload.js"></script>
+  <script type="text/javascript" src="<?php echo $theme_baseurl?>/js/script.js"></script>
+  

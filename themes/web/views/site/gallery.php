@@ -32,7 +32,7 @@
             ?>
             <div class='w'>
               <a href="<?php echo url('site/'.$label,array('id' => $inst->id) ) ?>" title="<?php
-              echo CHtml::encode($inst->title); ?>"><img src="<?php echo $t->getCimage('142_95'); ?>" ></a>
+              echo CHtml::encode($inst->title); ?>"><img class='lazy' src="<?php echo $t->getCimage('142_95'); ?>" ></a>
             </div>
             <?php 
                   }
